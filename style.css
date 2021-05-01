@@ -108,11 +108,11 @@ nav ul li a:hover{
     font-size: 20px;
 }
 .social a:first-of-type:hover{
-    background-color: blue;
+    background-color: #3b5998;
     color: #fff;
 }
 .social a:nth-of-type(2):hover{
-    background-color: red;
+    background-color:#ff0000;
        color: #fff;
 }
 .social a:nth-of-type(3):hover{
