@@ -1,0 +1,121 @@
+*{padding: 0;margin: 0;transition:all .5s ease-in-out;}
+/*style for container*/
+.container{
+    width: 100%;height: 100vh;
+    background-image: url(./images/background.png);background-position: center; background-size: cover;
+    padding-left: 5%;padding-right: 5%;
+    position: relative;
+    box-sizing: border-box;
+}
+/*style for navbar */
+.navbar{
+    width: 100%;height: 15vh;
+    margin: auto;
+    display: flex;align-items: center;
+}
+/*style for img  logo in nanbar*/
+.logo{
+    width: 160px;
+    cursor: pointer;
+}
+/*style for img cart in navbar*/
+.cart{
+    width: 40px;
+    cursor: pointer;
+}
+/*navbar links*/
+nav {
+    flex: 1;
+    padding-left: 60px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 6px;
+}
+nav ul li a:hover{
+    background: #c1d9fb;
+    color: #fff;
+    font-size: 24px;
+}
+/*END navbar links*/
+
+/*style for content*/
+.content{
+    margin-left: 10%;margin-top: 10%;
+}
+/*style for button in content*/
+.content  >a{
+   display: inline-block;
+   background: linear-gradient(45deg,#87adfe,#ff77cd);
+   border-radius: 6px;
+   padding: 10px 20px;
+   text-decoration: none;
+   color: #ffffff;
+   box-shadow: 3px 8px 22px rgba(94, 28, 68,0.15 );
+}
+/*style for h1 in content*/
+.content h1 {
+    font-size: 60px;font-weight: 100;
+    margin-top: 24px;margin-bottom: 15px;
+    color: #232d60;
+}
+/*style for p in content*/
+.content p {
+    font-size: 20px;
+    color: #6a7199;
+}
+/*style for arrow img*/
+.arrow-icon{
+    margin-top: 40px;
+    display: flex;
+}
+.arrow-icon img{
+    width: 40px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+/*style for img in home page*/
+.fimg{
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 160px;
+}
+/*style for links social */
+.social{
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -80px;
+    bottom: 180px;
+}
+
+.social a{
+    text-decoration: none;
+    color: #6a7199;
+    padding: 20px;
+    font-size: 14px;
+    
+}
+.social a:hover{
+    font-size: 20px;
+}
+.social a:first-of-type:hover{
+    background-color: blue;
+    color: #fff;
+}
+.social a:nth-of-type(2):hover{
+    background-color: red;
+       color: #fff;
+}
+.social a:nth-of-type(3):hover{
+    background-color: #000;
+       color: #fff;
+}
